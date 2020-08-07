@@ -36,3 +36,136 @@
     transform: rotate(360deg);
   }
 }
+
+/*begin header*/
+.btn-sigin {
+  background-color: #716ACA !important;
+  border: 0px solid transparent;
+  outline: 0px !important;
+  box-shadow: none !important;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 30px;
+  line-height: 28px;
+}
+.btn-sigin:hover {
+  opacity: 0.8;
+}
+
+
+.header-logo {
+  width: 50px;
+}
+
+.border-radius-50 {
+  border-radius: 50px;
+}
+
+.nav-header li {
+  margin-right: 30px;
+}
+
+.nav-header li a {
+  color: cornsilk !important;
+}
+
+.nav-header i {
+  margin-right: 3px;
+}
+
+.nav-header .fa-life-ring {
+  font-weight: 400 !important;
+}
+
+/*end header*/
+
+/*begin main*/
+.txt-search {
+  outline:0px !important;
+  box-shadow: none !important;
+  border-radius: 25px;
+  border-color: #61dafb;
+  padding: 25px 20px;
+}
+
+.txt-search:focus {
+  border-color: #61dafb;
+}
+
+.btn0-search {
+  background-color: white !important;
+  outline:0px !important;
+  box-shadow: none !important;
+  border-radius: 25px;
+  border-color: #61dafb;
+}
+
+.btn-search {
+  outline:0px !important;
+  box-shadow: none !important;
+  border-radius: 25px;
+  border: 0px solid transparent;
+  background-image: linear-gradient(319.4deg, #40DBBB 19.74%,#34bfa3 85.13%);
+}
+
+.img-content-1-2 {
+  width: 430px;
+  height: 500px;
+}
+
+.card-header {
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px !important;
+  border: 1px solid transparent;
+  padding: 50px 30px;
+}
+
+.card-header:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-20px); 
+  -moz-transform: translateY(-20px); 
+  -ms-transform: translateY(-20px); 
+  -o-transform: translateY(-20px); 
+  transform: translateY(-20px);
+    
+  -webkit-transition: all 0.4s; 
+  -moz-transition: all 0.4s; 
+  -ms-transition: all 0.4s; 
+  -o-transition: all 0.4s; 
+  transition: all 0.4s;
+}
+
+.card-header-icon {
+  font-size: 70px;
+  color: #34bfa3;
+}
+
+.card-header-title {
+  margin-top: 30px;
+  padding: 20px 0;
+  border-top: 1px solid #dededf;
+}
+
+.card-header-content {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Open Sans";
+  line-height: 26px;
+  font-weight: 300;
+  color: #828282;
+}
+
+.card-header-footer {
+  margin-top: 30px;
+  padding: 20px 0;
+  border-top: 1px solid #dededf;
+}
+
+.card-header-footer a {
+  text-decoration: none;
+  color: #716aca;
+  font-weight: bold;
+  font-size: 15px;
+}
+/*end main*/
