@@ -19,7 +19,7 @@ const Header = (props) => {
   return (
     <Navbar className="bg-transparent" color="light" light expand="md">
         <NavbarBrand href="/">
-          <img className="header-logo" src="/logo192.png"/>
+          <img className="header-logo" src="./logo192.png" alt=""/>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
