@@ -2,7 +2,7 @@ body {
   background-color: rgb(238, 238, 238) !important;
   background-image: url(https://wikb.modeltheme.com/wp-content/uploads/2019/06/layer-background.png?id=19858) !important;
   background-position: 400px -1200px !important;
-  background-repeat: repeat-y !important;
+  background-repeat: no-repeat !important;
   background-position: left;
 }
 code {
