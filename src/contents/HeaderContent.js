@@ -26,7 +26,7 @@ function HeaderContent(){
                     </InputGroup>
                 </Col>
                 <Col xs="12" sm="12" lg="6" >
-                    <img className="img-content-1-2" src="./images/support-illustration-600x698.png" alt=""/>
+                    <img className="img-content-1-2" src="https://byztam.github.io/crawler-reactjs/images/support-illustration-600x698.png" alt=""/>
                 </Col>
             </Row>
             <Row>

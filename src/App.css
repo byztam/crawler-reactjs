@@ -349,9 +349,13 @@
 
 .footer-content-card {
   margin-top: 50px;
-  padding: 45px 30px;
+  padding: 45px 0;
   background-color: white !important;
   border-radius: 12px;
+}
+
+.footer-content-item {
+  padding: 0 30px;
 }
 
 .footer-content-card p {
