@@ -1,4 +1,6 @@
 import React from 'react';
+import '../css/HeaderContent.css';
+import '../css/Common.css';
 import {
     Row, 
     Col,

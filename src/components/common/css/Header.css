@@ -1,0 +1,38 @@
+.btn-sigin {
+    background-color: #716ACA !important;
+    border: 0px solid transparent;
+    outline: 0px !important;
+    box-shadow: none !important;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 30px;
+    line-height: 28px;
+  }
+  .btn-sigin:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .header-logo {
+    width: 50px;
+  }
+  
+  .border-radius-50 {
+    border-radius: 50px;
+  }
+  
+  .nav-header li {
+    margin-right: 30px;
+  }
+  
+  .nav-header li a {
+    color: cornsilk !important;
+  }
+  
+  .nav-header i {
+    margin-right: 3px;
+  }
+  
+  .nav-header .fa-life-ring {
+    font-weight: 400 !important;
+  }

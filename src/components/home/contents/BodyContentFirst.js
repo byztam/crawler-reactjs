@@ -1,4 +1,6 @@
 import React from 'react';
+import '../css/Common.css';
+import '../css/BodyContentFirst.css';
 import {
     Row, 
     Col,

@@ -1,0 +1,37 @@
+.product {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 12px !important;
+    border: 0px solid transparent;
+}
+  
+.product-logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0 !important;
+}
+  
+.product-detail {
+    padding: 20px 5px;
+}
+  
+.product-name {
+    font-size: 17px;
+    font-weight: bold;
+}
+  
+.product-category {
+    font-size: 14px;
+    font-weight: normal;
+    color: #828282;
+}
+  
+.product-btn-search {
+    width: 40px;
+    height: 40px;
+    outline:0px !important;
+    box-shadow: none !important;
+    border-radius: 50%;
+    border: 0px solid transparent;
+    background-image: linear-gradient(319.4deg, #40DBBB 19.74%,#34bfa3 85.13%);
+}

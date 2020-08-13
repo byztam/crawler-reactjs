@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '../css/Common.css';
+import '../css/FooterContent.css';
 import {
     Row, 
     Col,

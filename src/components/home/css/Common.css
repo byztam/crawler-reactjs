@@ -1,0 +1,19 @@
+
+.btn-search:hover, .product-btn-search:hover, .btn-next-previous button:hover {
+    background-image: linear-gradient(319.4deg, #51f1d1 19.74%,#43d8ba 85.13%);
+}
+
+.card-header:hover, .product:hover, .plan-card:hover {
+    cursor: pointer;
+    -webkit-transform: translateY(-20px); 
+    -moz-transform: translateY(-20px); 
+    -ms-transform: translateY(-20px); 
+    -o-transform: translateY(-20px); 
+    transform: translateY(-20px);
+      
+    -webkit-transition: all 0.4s; 
+    -moz-transition: all 0.4s; 
+    -ms-transition: all 0.4s; 
+    -o-transition: all 0.4s; 
+    transition: all 0.4s;
+}

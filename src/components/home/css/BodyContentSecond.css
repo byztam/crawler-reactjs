@@ -1,0 +1,136 @@
+.plan {
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 70px !important;
+    padding: 50px;
+}
+  
+.plan-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+  
+.plan-detail {
+    font-size: 14px;
+    font-weight: normal;
+    color: #828282;
+}
+  
+.plan-card {
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 12px !important;
+    border: 0px solid #fefefe;
+    padding: 50px 30px;
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1),0 6px 20px 0 rgba(0,0,0,0.1) !important;
+}
+  
+.plan-card:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+  
+.plan-card-name {
+    margin-top: 20px;
+    color: #716ad4;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.plan-card-content {
+    padding: 20px 0;
+    border-top: 1px solid #dededf;
+    text-align: left;
+    font-size: 18px;
+    font-family: "Open Sans";
+    line-height: 26px;
+    font-weight: 300;
+    color: #828282;
+}
+  
+.plan-card-content ul {
+    list-style: none;
+}
+  
+.plan-card-content ul li {
+    padding: 5px 0;
+    color: #bdbdbd;
+}
+  
+.plan-card-content ul li:before {
+    content: '✓ ';
+}
+  
+.plan-card-footer {
+    color: #8a8a8a;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #dededf;
+    border-bottom: 1px solid #dededf;
+    font-weight: 700;
+    font-size: 20px;
+}
+  
+.plan-card-price {
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.plan-card-price .line {
+    font-weight: normal !important;
+    letter-spacing: 2px;
+}
+  
+.plan-card-month {
+    font-weight: normal !important;
+    font-size: 18px;
+    margin-left: 3px;
+}
+  
+.plan-card-getstart {
+    margin-top: 30px;
+    text-align: center;
+}
+  
+.plan-card-getstart button {
+    outline: none !important;
+    border-radius: 30px;
+    border: 0px solid transparent !important;
+    box-shadow: none !important;
+    background-color: #34bfa3;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.plan-card-getstart button:hover, .plan-card-getstart button:focus {
+    opacity: .7;
+    background-color: #34bfa3;
+}
+  
+.plan-card.middle {
+    background-color: #716aca;
+}
+  
+.plan-card.middle .plan-card-name {
+    color: white !important;
+}
+  
+.card-body-icon {
+    font-size: 70px;
+    color: white;
+}
+  
+.plan-card-footer.middle {
+    color: white !important;
+}
+  
+.plan-card-getstart.middle button {
+    background-color: #8178f7;
+}
+  
+.plan-card-getstart.middle button:hover, .plan-card-getstart.middle button:focus {
+    opacity: .7;
+}

@@ -1,0 +1,77 @@
+.footer-content-card {
+    margin-top: 50px;
+    padding: 45px 0;
+    background-color: white !important;
+    border-radius: 12px;
+}
+  
+.footer-content-item {
+    padding: 0 30px;
+}
+  
+.footer-content-card p {
+    color: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: .7;
+}
+  
+.footer-content-info {
+    margin-top: 20px;
+    display: inline-flex;
+}
+  
+.footer-content-info .avt {
+    max-width: 75px;
+}
+  
+.footer-content-info .avt img {
+    width: 100%;
+    border-radius: 50%;
+}
+  
+.footer-content-info .info-name {
+    padding-left: 15px;
+    margin: auto;
+}
+  
+.footer-content-info .info-name .name {
+    color: #716aca !important;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+  
+.footer-content-info .info-name .position {
+    margin: 0;
+    font-size: 14px;
+    color: #828282;
+    font-weight: 300;
+    line-height: 1.4;
+    opacity: .7;
+}
+  
+.btn-next-previous {
+    margin-top: 20px;
+}
+  
+.btn-next-previous button {
+    width: 37px;
+    border-radius: 50%;
+    outline:0px !important;
+    box-shadow: none !important;
+    border: 0px solid transparent;
+    background-image: linear-gradient(319.4deg, #40DBBB 19.74%,#34bfa3 85.13%);
+}
+  
+.btn-next-previous .btn-previous {
+    margin-left: 10px !important;
+}
+  
+.footer-content-img {
+    width: 330px;
+    height: 424px;
+}
