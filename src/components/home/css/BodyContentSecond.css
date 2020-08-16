@@ -37,7 +37,7 @@
     font-size: 20px;
 }
   
-.plan-card-content {
+.plan-card-content1 {
     padding: 20px 0;
     border-top: 1px solid #dededf;
     text-align: left;
@@ -48,20 +48,20 @@
     color: #828282;
 }
   
-.plan-card-content ul {
+.plan-card-content1 ul {
     list-style: none;
 }
   
-.plan-card-content ul li {
+.plan-card-content1 ul li {
     padding: 5px 0;
     color: #bdbdbd;
 }
   
-.plan-card-content ul li:before {
+.plan-card-content1 ul li:before {
     content: '✓ ';
 }
   
-.plan-card-footer {
+.plan-card-content2 {
     color: #8a8a8a;
     text-align: center;
     padding: 20px 0;
@@ -87,12 +87,12 @@
     margin-left: 3px;
 }
   
-.plan-card-getstart {
+.plan-card-footer {
     margin-top: 30px;
     text-align: center;
 }
   
-.plan-card-getstart button {
+.plan-card-footer button {
     outline: none !important;
     border-radius: 30px;
     border: 0px solid transparent !important;
@@ -105,7 +105,7 @@
     width: 100%;
 }
 
-.plan-card-getstart button:hover, .plan-card-getstart button:focus {
+.plan-card-footer button:hover, .plan-card-footer button:focus {
     opacity: .7;
     background-color: #34bfa3;
 }
@@ -123,14 +123,14 @@
     color: white;
 }
   
-.plan-card-footer.middle {
+.plan-card-content2.middle {
     color: white !important;
 }
   
-.plan-card-getstart.middle button {
+.plan-card-footer.middle button {
     background-color: #8178f7;
 }
   
-.plan-card-getstart.middle button:hover, .plan-card-getstart.middle button:focus {
+.plan-card-footer.middle button:hover, .plan-card-footer.middle button:focus {
     opacity: .7;
 }
