@@ -23,7 +23,7 @@ const BackTopButton = (props) => {
             function step (newTimestamp) {
                 if (oldTimestamp !== null) {
                     // if duration is 0 scrollY will be -Infinity
-                    scrollY -= totalScrollDistance * (newTimestamp - oldTimestamp) / 400;
+                    scrollY -= totalScrollDistance * (newTimestamp - oldTimestamp) / 500;
                     if (scrollY <= 0) return document.scrollingElement.scrollTop = 0;
                     document.scrollingElement.scrollTop = scrollY;
                 }

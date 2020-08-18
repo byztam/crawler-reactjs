@@ -1,0 +1,10 @@
+.form-request {
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient(134.3deg, #564EC0 68%, #716ACA 6%);
+}
+.content-1 {
+    padding: 40px 50px;
+}
+.form-request .img {
+    max-width: 100%;
+}

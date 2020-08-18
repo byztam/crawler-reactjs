@@ -36,3 +36,7 @@
   .nav-header .fa-life-ring {
     font-weight: 400 !important;
   }
+
+  .nav-header a {
+    text-decoration: none !important;
+  }
