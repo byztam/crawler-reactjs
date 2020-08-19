@@ -4,22 +4,25 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import Routes from './routes';
+import ScrollToTop from 'react-router-scroll-top';
 
 class App extends Component {
 	render(){
 		return (
-			<Router>
-				<Container>
-					<Header/>
-					{/* body */}
-					<Switch>
-					{
-						this.Route(Routes)
-					}
-					</Switch>
-					{/* body */}
-					<Footer/>
-				</Container>
+			<Router onUpdate={() => alert(1)} >
+				<ScrollToTop>
+					<Container>
+						<Header/>
+						{/* body */}
+						<Switch>
+						{
+							this.Route(Routes)
+						}
+						</Switch>
+						{/* body */}
+						<Footer/>
+					</Container>
+				</ScrollToTop>
 			</Router>
 		);
 	}
