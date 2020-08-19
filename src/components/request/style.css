@@ -8,3 +8,42 @@
 .form-request .img {
     max-width: 100%;
 }
+
+.content-2 {
+    padding: 50px 20px;
+}
+
+.content-2 input, .content-2 textarea {
+    box-shadow: none !important;
+    border: 0px solid transparent;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.content-2 textarea {
+    height: 200px;
+    min-height: 50px;
+    padding-top: 10px;
+}
+
+.icon-textarea {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.left-icon {
+    background-color: #ffffff !important;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+}
+
+.left-icon-textarea {
+    background-color: #ffffff !important;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    align-items: baseline;
+}
+
+.left-icon i {
+    margin-left: 10px;
+}
